@@ -1,9 +1,9 @@
 #include "CWorker.h"
-//#include "WTypes.h"
-//#include "wchar.h"
 #include "errordef.h"
 #include "defs.h"
 #include "stdio.h"
+
+#pragma warning(disable:4996)
 
 SCODE CWorker::IsAvailablePath(const wchar_t *pszPath)
 {
