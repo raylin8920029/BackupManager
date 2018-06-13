@@ -1,0 +1,2 @@
+[2018-05-28 20:54:32.732] [BackupManager] [trace] [ d:\__project__\c_plus_plus\backupmanager\backupmanager\src\clogger.cpp(20) ] SPDLOG_TRACE : Path is available. 
+[2018-05-28 22:40:30.732] [BackupManager] [trace] [ d:\__project__\c_plus_plus\backupmanager\backupmanager\src\clogger.cpp(20) ] SPDLOG_TRACE : Path is available. 

@@ -14,6 +14,7 @@ public:
 	void Log_Out(ELogType tpye, const std::string &message);
 
 	//Not implement yet
+	void CreateLogFile();
 	void OutputConsoleLogWithElastic(ELogType tpye, const std::string &message);
 
 private:

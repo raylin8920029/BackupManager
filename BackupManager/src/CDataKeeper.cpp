@@ -8,7 +8,7 @@ CDataKeeper::CDataKeeper(void)
 	m_spLogger = std::make_shared<CLogger>();
 }
 
-bool CDataKeeper::IsAvailablePath(const wchar_t * pszPath)
+bool CDataKeeper::IsAvailablePath(const wchar_t *pszPath)
 {
 	bool bIsAvailable = false;
 

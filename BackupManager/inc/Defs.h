@@ -8,7 +8,11 @@
 #define SPDLOG_TRACE_ON
 #define SPDLOG_DEBUG_ON
 
-const static std::string STR_ROTATING_FILE_NAME = "BackupManager";
+const static std::string PRODUCT_NAME = "BackupManager";
+const static std::string LOG_FOLDER_PATH = "logs";
+const static std::string LOG_ROTATING_FILE = "rotating.txt";
+const static unsigned int ROTATING_FILE_NUMBER = 3;
+const static unsigned int ROTATING_FILE_SIZE = 1048576 * 5;
 
 /*! Tpyes of Speed Logger */
 enum class ELogType

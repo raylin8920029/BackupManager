@@ -12,7 +12,6 @@ int main()
 
 	SCODE result = objDataKeeper.IsAvailablePath(m1);
 	std::cout << "Result is " << result << std::endl;
-
 	system("pause");
 }
 
